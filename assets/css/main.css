@@ -560,7 +560,7 @@ section,
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 90px;
-  overflow: clip;
+  overflow: visible;
 }
 
 @media (max-width: 1199px) {
