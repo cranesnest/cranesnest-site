@@ -1182,3 +1182,7 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
  
+
+section.page-title {
+  padding-top: 120px; /* offsets the fixed header */
+}
