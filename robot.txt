@@ -1,0 +1,4 @@
+ser-agent: *
+Allow: /
+
+Sitemap: https://cranesnest.ca/sitemap.xml
