@@ -66,16 +66,18 @@
 
 <body class="index-page">
 
-  <!-- Header -->
+  <!-- ★★★★★ UPDATED HEADER ★★★★★ -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <!-- Left: Logo -->
+      <a href="index.html" class="logo d-flex align-items-center me-3">
         <img src="assets/img/logo.jpg" alt="Crane’s Nest Registered Massage Therapy logo">
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
+      <!-- Center: Navigation Links -->
+      <nav id="navmenu" class="navmenu mx-auto">
+        <ul class="d-flex align-items-center gap-4">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
@@ -87,9 +89,16 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
+      <!-- Right: Book Now Button -->
+      <a href="https://cranesnest.janeapp.com/#/staff_member/1" 
+         class="btn btn-primary px-4 py-2 rounded-pill d-none d-xl-block"
+         style="background-color:#1f5f8b; border:none; font-weight:500;">
+        Book Now
+      </a>
+
     </div>
   </header>
-  <!-- End Header -->
+  <!-- END UPDATED HEADER -->
 
   <main class="main">
 
@@ -101,16 +110,15 @@
         <h1>Crane’s Nest Registered Massage Therapy</h1>
         <p>Professional RMT care in Parksville, BC - grounded, client-centered, and evidence-informed.</p>
         <div class="d-flex justify-content-center mt-3">
-  <iframe 
-    frameborder="0" 
-    height="45" 
-    width="200"
-    scrolling="no"
-    style="border-radius: 6px;"
-    src="https://cranesnest.janeapp.com/embed/book_online/1">
-  </iframe>
-</div>
-
+          <iframe 
+            frameborder="0" 
+            height="45" 
+            width="200"
+            scrolling="no"
+            style="border-radius: 6px;"
+            src="https://cranesnest.janeapp.com/embed/book_online/1">
+          </iframe>
+        </div>
       </div>
     </section>
 
@@ -192,43 +200,42 @@
     </section>
 
   </main>
-<!-- Footer -->
-<footer id="footer" class="footer light-background py-4">
-  <div class="container text-center">
 
-    <h4 class="mb-2">Crane’s Nest Registered Massage Therapy</h4>
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background py-4">
+    <div class="container text-center">
 
-    <p class="mb-1">
-      166 Acacia St N, Parksville, BC • 
-      <a href="tel:2502401875">250-240-1875</a> • 
-      <a href="mailto:cranesnestrmt@gmail.com">cranesnestrmt@gmail.com</a>
-    </p>
+      <h4 class="mb-2">Crane’s Nest Registered Massage Therapy</h4>
 
-    <p class="mb-1">
-      <a href="booking.html">Book Online</a> • 
-      <a href="services.html">Services</a> • 
-      <a href="contact.html">Contact</a> • 
-    </p>
+      <p class="mb-1">
+        166 Acacia St N, Parksville, BC • 
+        <a href="tel:2502401875">250-240-1875</a> • 
+        <a href="mailto:cranesnestrmt@gmail.com">cranesnestrmt@gmail.com</a>
+      </p>
 
-    <p class="mt-3 small">
-      © <span id="year"></span> Crane’s Nest Registered Massage Therapy — All Rights Reserved
-    </p>
+      <p class="mb-1">
+        <a href="booking.html">Book Online</a> • 
+        <a href="services.html">Services</a> • 
+        <a href="contact.html">Contact</a> • 
+      </p>
 
-    <p class="mt-2">
-      <a href="https://www.facebook.com/profile.php?id=61573516064468" target="_blank">
-        <i class="bi bi-facebook"></i> Facebook
-      </a>
-    </p>
+      <p class="mt-3 small">
+        © <span id="year"></span> Crane’s Nest Registered Massage Therapy — All Rights Reserved
+      </p>
 
-  </div>
-</footer>
+      <p class="mt-2">
+        <a href="https://www.facebook.com/profile.php?id=61573516064468" target="_blank">
+          <i class="bi bi-facebook"></i> Facebook
+        </a>
+      </p>
 
-<script>
-  // Auto-year update
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-<!-- End Footer -->
+    </div>
+  </footer>
 
+  <script>
+    // Auto-year update
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
