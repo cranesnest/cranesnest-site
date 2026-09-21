@@ -1,0 +1,23 @@
+.services-image-layout{display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:center}
+.services-image-layout img{display:block;width:100%;height:auto;border-radius:14px}
+.services-intro.page-title{padding:40px 0!important}
+.services-intro-copy h1{max-width:13ch}
+.services-intro-copy p{max-width:38ch}
+.services-appointment{background:#f3f3ed}
+.services-appointment .services-image-layout{grid-template-columns:1.1fr 1fr}
+@media(max-width:767px){.services-image-layout,.services-appointment .services-image-layout{grid-template-columns:1fr;gap:26px}.services-intro.page-title{padding:28px 0!important}.services-intro-copy h1,.services-intro-copy p{max-width:none}.services-appointment .services-image-layout>div{grid-row:1}}
+
+/* Open editorial sections replace the technique card grid. */
+.care-approach{background:#fffefa;padding:72px 0}
+.care-layout{display:grid;grid-template-columns: .8fr 1.4fr;gap:72px;align-items:start}
+.care-heading h2{font-size:clamp(2rem,3vw,2.65rem);line-height:1.18}
+.care-heading .eyebrow{margin-bottom:18px}
+.care-copy p{max-width:65ch}.care-lead{font-size:1.2rem;line-height:1.7;color:#2d443a}
+.technique-note{border-top:1px solid #cbd7c4;margin-top:30px;padding-top:26px}
+.technique-note h3{font-size:1.1rem;letter-spacing:0;margin-bottom:12px}
+.technique-note p{font-size:1rem;margin-bottom:0}
+.services-appointment{padding:64px 0}.services-appointment h2{font-size:2rem}
+.services-appointment .eyebrow{font-size:.75rem}.visit-text-link{display:inline-block;margin-top:10px;font-weight:500}
+.services-page .call-to-action{padding:48px 0}.services-page .call-to-action h2{max-width:28ch;margin:0 auto 18px}
+@media(max-width:991px){.care-layout{gap:36px;grid-template-columns: .85fr 1.3fr}}
+@media(max-width:767px){.care-approach,.services-appointment{padding:38px 0}.care-layout{grid-template-columns:1fr;gap:12px}.care-heading h2 br{display:none}.care-heading h2 br:after{content:' '}.care-heading h2{max-width:16ch}.care-lead{font-size:1.1rem}.technique-note{margin-top:24px;padding-top:22px}.services-page .call-to-action{padding:36px 0}}

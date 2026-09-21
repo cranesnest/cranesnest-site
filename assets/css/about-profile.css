@@ -1,0 +1,13 @@
+.about-page .page-title .eyebrow{font-size:.8rem;margin-bottom:14px;color:#435844}
+.about-page .page-title h1{margin-bottom:0}
+.profile-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:64px;align-items:start}
+.profile-portrait img{display:block;width:100%;height:auto;border-radius:16px}
+.profile-copy{padding-top:4px;max-width:68ch}
+.profile-lead{font-size:1.2rem;line-height:1.7;color:#2d443a;margin-bottom:28px}
+.profile-copy h2{font-size:1.45rem;margin:28px 0 14px}
+.profile-copy p{margin-bottom:20px}
+.profile-copy .section-actions{padding-top:26px;border-top:1px solid #d0d9ca;gap:18px}
+.profile-visit{background:#edf1e8;border-top:1px solid #d5dfce}
+.profile-visit p{margin-bottom:0}
+@media(max-width:991px){.profile-layout{gap:32px;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}}
+@media(max-width:767px){.profile-layout{grid-template-columns:1fr;gap:28px}.profile-portrait{max-width:340px;width:100%;margin-inline:auto}.profile-lead{font-size:1.1rem}.profile-copy .section-actions{align-items:flex-start;flex-direction:column}.profile-copy .btn-get-started{width:100%}}

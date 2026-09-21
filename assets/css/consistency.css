@@ -1,0 +1,40 @@
+/* Audit follow-up: shared usability and restrained supporting-page polish. */
+.review-header{transition:none}
+[id]{scroll-margin-top:calc(var(--site-header-height, 138px) + 18px)!important}
+@media(max-width:1199px){.review-header .navmenu[data-enhanced] ul{max-height:calc(100dvh - var(--site-header-height, 160px) - 12px)}}
+.page-jumps{display:flex;flex-wrap:wrap;gap:12px 28px;margin-bottom:36px;padding-bottom:24px;border-bottom:1px solid #d0d9ca;font-size:1rem}
+.page-jumps a{padding:6px 0;font-weight:500}
+.direct-billing-page main>.section>.container{max-width:1080px}
+.direct-billing-page main h2{margin-top:30px}
+.direct-billing-page main hr{margin-block:32px!important;border-color:#aab9a0}
+.billing-group ul:last-child,.billing-group p:last-child{margin-bottom:0}
+.direct-billing-page .insurer-list{column-gap:44px}
+.contact .info-item{align-items:flex-start!important}
+.contact .info-item>div{min-width:0}
+.contact .info-item a{overflow-wrap:anywhere}
+.contact iframe{display:block;min-height:380px}
+.contact-page #arrival h2:not(:first-child){margin-top:32px}
+.gallery-hint{margin-bottom:24px;color:#45534c}
+.gallery-page .portfolio-item>a{display:block;border-radius:12px;overflow:hidden}
+.gallery-page .portfolio-item img{width:100%;height:auto;border-radius:12px}
+.gallery-next{background:#edf1e8;border-top:1px solid #d5dfce}
+.gallery-next .section-actions{margin-top:20px}
+@media(max-width:767px){.page-jumps{gap:4px 22px;margin-bottom:24px;padding-bottom:16px}.direct-billing-page main hr{margin-block:26px!important}.contact iframe{min-height:300px;height:300px}.gallery-next .section-actions{align-items:flex-start}}
+
+.featured-insurers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;padding:0;margin:18px 0 36px;border-block:1px solid #cbd7c4;gap:0 28px}
+.featured-insurers li{padding:20px 0;font-family:var(--heading-font);font-size:1.15rem;font-weight:600;color:#253d36}
+.featured-insurers-title{font-size:1.2rem;margin-top:26px}
+@media(max-width:767px){.featured-insurers{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}.featured-insurers li{font-size:1rem;padding:16px 0}}
+
+/* Original insurer artwork, with consistent clear space and readable labels. */
+.featured-insurers{background:#fff;gap:0;padding:8px 20px;border-radius:8px}
+.featured-insurers li{text-align:center;padding:28px 18px;font-family:var(--default-font);font-size:.9rem;font-weight:500}
+.insurer-logo{height:72px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.insurer-logo img{display:block;width:auto;height:auto;max-width:180px;max-height:58px;object-fit:contain}
+.insurer-name-only{font-family:var(--heading-font);font-size:1.65rem;font-weight:600;color:#253d36}
+.insurer-caption{display:block;color:#45534c}
+@media(max-width:767px){.featured-insurers{padding:4px 8px}.featured-insurers li{padding:22px 10px;font-size:.8rem}.insurer-logo{height:60px}.insurer-logo img{max-width:100%;max-height:48px}.insurer-name-only{font-size:1.3rem}}
+
+.insurer-logo img[src$="desjardins.svg"]{background:#253d36;padding:12px;border-radius:4px;box-sizing:content-box;max-width:calc(100% - 24px);width:156px}
+
+.featured-insurers .insurer-logo{margin-bottom:0}

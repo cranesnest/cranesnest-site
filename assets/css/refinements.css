@@ -1,0 +1,48 @@
+/* Focused improvements to the original Crane's Nest theme. */
+:root{--nav-color:#243737;--nav-hover-color:#182828;scroll-behavior:auto}
+body{line-height:1.65} h1,h2,h3{line-height:1.25} h1{font-weight:600} h2{font-size:clamp(1.5rem,2.4vw,2rem)} p{max-width:75ch}
+main a:not(.btn-get-started):not(.btn-secondary),.footer a{text-decoration:underline;text-underline-offset:3px} a:hover{color:#182828}
+:focus-visible{outline:3px solid #294f68;outline-offset:4px}.hero :focus-visible{outline-color:#fff}
+.skip-link{position:fixed;left:16px;top:-100px;padding:12px 20px;background:#fff;color:#243737;z-index:10001}.skip-link:focus{top:12px}
+.header{position:sticky!important;top:0;box-shadow:0 1px 0 #24373722}.header .logo img{width:88px;height:88px;max-height:none}
+.navmenu ul{display:flex;gap:4px;align-items:center;list-style:none;margin:0;padding:0;position:static;box-shadow:none;background:transparent;border-radius:0;overflow:visible}
+.navmenu a,.navmenu a:focus{display:flex;padding:12px 10px;font-size:14px;font-weight:500;color:#243737;text-decoration:none;min-height:44px}
+.navmenu a:hover,.navmenu a[aria-current=page]{color:#182828;text-decoration:underline;text-underline-offset:6px}
+.navmenu .nav-book{background:#293b3b;color:#fff;border-radius:6px;margin-left:8px;padding:12px 16px}
+.navmenu .nav-book:hover,.navmenu .nav-book:focus,.navmenu .nav-book[aria-current=page]{color:#fff;background:#1c2c2c}.navmenu li:last-child a{padding-right:16px}
+.menu-toggle{display:none;min-height:44px;min-width:70px;border:1px solid #293b3b;border-radius:5px;background:transparent;color:#243737;font-weight:600;padding:8px 12px}
+.page-title{padding:40px 0 32px!important}.page-title p{margin-bottom:0;font-size:1.075rem}.section{padding:48px 0}.section-title{padding-bottom:28px}.reading-width{max-width:850px}
+.hero{min-height:0;padding:60px 0}.hero .container{max-width:1040px}.hero h1{font-size:clamp(2rem,4.2vw,3.25rem);max-width:23ch;margin:0 auto 16px}
+.hero p{margin:12px auto;max-width:64ch;font-size:1.125rem}.hero:before{background:rgba(27,40,45,.79)}.hero a{color:#fff}.hero .hero-practitioner{font-size:1.125rem}.hero .hero-location{font-size:1rem}.hero .hero-availability{font-size:1rem;font-weight:500;margin-top:22px}
+.hero-actions,.section-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}.hero-actions{justify-content:center;margin:24px 0 0}
+.btn-get-started,.hero .btn-get-started,.btn-secondary{margin:0;min-height:48px;padding:11px 22px;border-radius:6px;font-weight:500;letter-spacing:0;font-size:1rem;line-height:1.5;text-decoration:none}
+.btn-get-started,.hero .btn-get-started{color:#fff;border:2px solid #293b3b}.btn-get-started:hover,.btn-get-started:focus{color:#fff;background:#1c2c2c!important;border-color:#1c2c2c}
+.hero .btn-get-started{background:#fff!important;border-color:#fff;color:#243737}.hero .btn-get-started:hover{background:#e8eee5!important;color:#243737}
+.btn-secondary{border:2px solid #fff;color:#fff;display:inline-block}.hero .btn-secondary:hover{color:#243737;background:#fff}
+.visit-strip{background:#eef1eb}.visit-strip h2{font-size:1.5rem}
+.services .service-item{padding:28px 24px;box-shadow:0 3px 20px #293b3b0c;text-align:left;border:1px solid #dce2dc}
+.services .service-item .icon{width:40px;height:40px;margin:0 0 14px;justify-content:flex-start}.services .service-item .icon i{font-size:24px}
+.services .service-item p,.contact .info-item p{font-size:1rem}.services .service-item:hover .icon i{color:#293b3b}
+.call-to-action{padding:40px 0;color:#243737}.call-to-action h2,.call-to-action p{color:#243737}.call-to-action p{margin-left:auto;margin-right:auto}
+.footer p{margin-left:auto;margin-right:auto;overflow-wrap:anywhere}.footer-brand{font-family:var(--heading-font);font-size:1.25rem;font-weight:600}.footer a{display:inline-block;padding:4px 2px}
+.pricing-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:40px;align-items:start;max-width:1060px}
+.rate-panel{border:1px solid #c9d3c7;border-radius:10px;padding:28px}.rates{width:100%;margin:20px 0;border-collapse:collapse;font-size:1.125rem;font-variant-numeric:tabular-nums}
+.rates th,.rates td{padding:14px 8px;border-bottom:1px solid #dce2dc}.rates thead th{font-size:.875rem;color:#344b40;background:#eef1eb}.rates th{font-weight:500}.rates td,.rates th:last-child{text-align:right}
+.appointment-note{font-size:.9375rem;color:#444}.pricing-aside{padding:20px 0}.pricing-aside h2{font-size:1.5rem}.eyebrow{color:#435844;font-weight:600;letter-spacing:.08em;font-size:.8125rem;text-transform:uppercase}.pricing-aside hr{margin:28px 0}
+details{padding:16px 0;border-bottom:1px solid #cbd4c8}summary{cursor:pointer;font-weight:600;padding:8px 0;color:#293b3b}details p{padding-top:14px}.section-actions{margin-top:28px}
+.billing-groups{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.billing-group{padding:24px;border:1px solid #d0d9cc;border-radius:8px;background:#f6f8fa}.billing-group h3{font-size:1.25rem}
+.insurer-list{columns:3;column-gap:36px;padding-left:22px;margin:20px 0}.insurer-list li{break-inside:avoid;margin-bottom:10px}.list-note{font-size:.9375rem}.medavie{margin:24px 0}
+.availability-note{font-weight:600;color:#344b40}.booking-page main>.section>.container{max-width:900px}.about img{border-radius:8px}img{max-width:100%;height:auto}[id]{scroll-margin-top:110px}
+@media(max-width:1199px){
+ .header .container-fluid{flex-wrap:wrap}.navmenu{margin-left:auto}.menu-toggle:not([hidden]){display:block}
+ .navmenu ul{display:flex;flex-direction:column;align-items:stretch;padding:8px 16px 16px;position:absolute;top:100%;left:0;right:0;max-height:calc(100dvh - 90px);overflow-y:auto;background:#f6f8fa;box-shadow:0 10px 20px #0002}
+ .navmenu[data-enhanced] ul:not(.is-open){display:none}.navmenu:not([data-enhanced]){flex-basis:100%}.navmenu:not([data-enhanced]) ul{position:static;display:flex;flex-direction:row;flex-wrap:wrap;box-shadow:none;background:transparent;max-height:none}
+ .navmenu a,.navmenu a:focus{font-size:1rem;padding:10px 14px}.navmenu .nav-book{margin:4px 0 0;justify-content:center}.insurer-list{columns:2}
+}
+@media(max-width:767px){
+ .header .logo img{width:72px;height:72px}.hero{padding:36px 0}.hero h1{font-size:2rem}.hero p{font-size:1rem}.hero-actions{flex-direction:column;gap:12px}.hero-actions a{width:100%;max-width:330px}
+ .hero-location span{display:none}.hero-location a{display:block;padding:4px 0}.page-title{padding:28px 0!important}.page-title h1{font-size:1.9rem}.section{padding:32px 0}
+ .pricing-layout{grid-template-columns:1fr;gap:16px}.rate-panel{padding:20px 16px}.pricing-aside{padding:16px}.billing-groups{grid-template-columns:1fr;gap:16px}.insurer-list{columns:1}.billing-group{padding:20px}
+ .rate-panel .btn-get-started{display:block;text-align:center}.about .about-content ul li{margin:16px 0}.about .about-content ul li:first-child{margin-top:16px}[id]{scroll-margin-top:90px}.navmenu ul{max-height:calc(100dvh - 74px)}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
